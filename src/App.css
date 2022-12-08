@@ -1,5 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Zen Dots", cursive;
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+}
+.rounded-full {
+  border-radius: 9999px;
+  width: fit-content;
+  background-color: cornsilk;
+  padding: 5px;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
 }
 
 .App-logo {
@@ -11,6 +28,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.green {
+  backgorund-color: green;
 }
 
 .App-header {
