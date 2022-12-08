@@ -630,11 +630,13 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
-.pb-1\.5 {
+.py-1\.5 {
+  padding-top: 0.375rem;
   padding-bottom: 0.375rem;
 }
 
-.pb-1 {
+.py-1 {
+  padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
 
